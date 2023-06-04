@@ -11,7 +11,9 @@
 int[,] table = new int[3, 4];
 FillArrayRandom(table);
 PrintArray(table);
-
+SortToLower(table);
+Console.WriteLine();
+PrintArray(table);
 
 
 void FillArrayRandom(int[,] array)
