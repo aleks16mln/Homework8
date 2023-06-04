@@ -1,4 +1,4 @@
-﻿// Задайте два двумерных массива (от 0 до 10). Напишите программу, которая будет находить произведение двух массивов (поэлементное).
+﻿// Задача 58:Задайте два двумерных массива (от 0 до 10). Напишите программу, которая будет находить произведение двух массивов (поэлементное).
 // Например, даны 2 массива:
 // 2 4
 // 3 2
@@ -9,11 +9,11 @@
 // 6 16
 // 9 6
 
-int rows = ReadInt("Введите количество строк и нажмите Enter: ");
-int columns = ReadInt("Введите количество столбцов и нажмите Enter: ");
-int[,] array = new int[rows, columns];
-int[,] secondArray = new int[rows, columns];
-int[,] resultArray = new int[rows, columns];
+int n = 2;
+int m = 2;
+int[,] array = new int[n, m];
+int[,] secondArray = new int[n, m];
+int[,] resultArray = new int[n, m];
 
 FillArrayRandom(array);
 PrintArray2D(array);
