@@ -1,5 +1,4 @@
-﻿// Задайте два двумерных массива (от 0 до 10). Напишите программу, которая 
-// будет находить произведение двух массивов (поэлементное).
+﻿// Задайте два двумерных массива (от 0 до 10). Напишите программу, которая будет находить произведение двух массивов (поэлементное).
 // Например, даны 2 массива:
 // 2 4
 // 3 2
@@ -10,10 +9,10 @@
 // 6 16
 // 9 6
 
-int rows = 0;
-int columns = 9;
-int[,] array = new int[2, 2];
-int[,] secondArray = new int[2, 2];
+int rows = ReadInt("Введите количество строк и нажмите Enter: ");
+int columns = ReadInt("Введите количество столбцов и нажмите Enter: ");
+int[,] array = new int[rows, columns];
+int[,] secondArray = new int[rows, columns];
 int[,] resultArray = new int[rows, columns];
 
 FillArrayRandom(array);
